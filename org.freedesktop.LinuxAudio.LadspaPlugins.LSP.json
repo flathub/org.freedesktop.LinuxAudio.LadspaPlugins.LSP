@@ -7,7 +7,6 @@
     "build-extension": true,
     "appstream-compose": false,
     "build-options": {
-        "prepend-pkg-config-path": "/app/extensions/LadspaPlugins/LSP/lib/pkgconfig",
         "prefix": "/app/extensions/LadspaPlugins/LSP"
     },
     "modules": [
@@ -45,7 +44,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/sadko4u/lsp-plugins.git",
-                    "tag": "lsp-plugins-1.1.21"
+                    "tag": "lsp-plugins-1.1.22"
                 },
                 {
                     "type": "file",
